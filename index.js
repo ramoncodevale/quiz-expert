@@ -1,95 +1,188 @@
 const perguntas = [
     {
-      pergunta: "O que é JavaScript?",
+      pergunta: "Qual time venceu a Copa Libertadores em 1990?",
       respostas: [
-        "Uma linguagem de programação de estilo orientado a objetos.",
-        "Um sistema operacional.",
-        "Um tipo de café especial.",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "Qual é a função do operador 'typeof' em JavaScript?",
-      respostas: [
-        "Ele verifica se um elemento HTML está visível.",
-        "Ele retorna o tipo de dado de uma expressão.",
-        "Ele adiciona dois números.",
+        "Boca Juniors",
+        "São Paulo",
+        "Nacional"
       ],
       correta: 1
     },
     {
-      pergunta: "Como se declara uma variável em JavaScript?",
+      pergunta: "Quem ganhou a Liga dos Campeões da UEFA em 1991?",
       respostas: [
-        "var myVar;",
-        "variável myVar;",
-        "myVar = variável;",
-      ],
-      correta: 0
-    },
-    {
-      pergunta: "O que é um array em JavaScript?",
-      respostas: [
-        "Uma função que retorna um valor booleano.",
-        "Um tipo de dado que armazena uma coleção de elementos.",
-        "Uma estrutura de controle condicional.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em JavaScript?",
-      respostas: [
-        "Ele atribui um valor a uma variável.",
-        "Ele verifica se dois valores são iguais em valor e tipo.",
-        "Ele adiciona dois números e verifica se são iguais.",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é uma função em JavaScript?",
-      respostas: [
-        "Uma variável que armazena um valor numérico.",
-        "Um tipo de dado que armazena uma lista de valores.",
-        "Um bloco de código reutilizável que executa uma tarefa específica.",
+        "Barcelona",
+        "Bayern de Munique",
+        "Estrela Vermelha"
       ],
       correta: 2
     },
     {
-      pergunta: "Qual é a maneira correta de comentar uma linha em JavaScript?",
+      pergunta: "Qual equipe conquistou a Copa Intercontinental em 1992?",
       respostas: [
-        "// Comentário",
-        "'Comentário",
-        "<!-- Comentário -->",
+        "São Paulo",
+        "Manchester United",
+        "Barcelona"
       ],
       correta: 0
     },
     {
-      pergunta: "O que é o DOM em JavaScript?",
+      pergunta: "Quem foi o campeão da Copa Libertadores em 1993?",
       respostas: [
-        "Um tipo de dado que armazena informações sobre o documento HTML.",
-        "Um padrão de design para criar interfaces de usuário.",
-        "Uma interface de programação que permite interagir com documentos HTML.",
+        "Cruzeiro",
+        "Vasco da Gama",
+        "São Paulo"
       ],
       correta: 2
     },
     {
-      pergunta: "Qual é a função do método 'querySelector()' em JavaScript?",
+      pergunta: "Qual time venceu a Liga dos Campeões da UEFA em 1994?",
       respostas: [
-        "Ele seleciona o primeiro elemento de um documento HTML que corresponde a um seletor CSS especificado.",
-        "Ele adiciona um evento de clique a um elemento HTML.",
-        "Ele altera o estilo de um elemento HTML.",
+        "Juventus",
+        "Ajax",
+        "Milan"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem ganhou a Copa Intercontinental em 1995?",
+      respostas: [
+        "Independiente",
+        "Boca Juniors",
+        "Real Madrid"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual equipe conquistou a Copa Libertadores em 1996?",
+      respostas: [
+        "River Plate",
+        "Boca Juniors",
+        "Cruzeiro"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem foi o vencedor da Liga dos Campeões da UEFA em 1997?",
+      respostas: [
+        "Manchester United",
+        "Real Madrid",
+        "Juventus"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual clube ganhou a Copa Intercontinental em 1998?",
+      respostas: [
+        "Real Madrid",
+        "Milan",
+        "São Paulo"
       ],
       correta: 0
     },
     {
-      pergunta: "O que é uma variável global em JavaScript?",
+      pergunta: "Quem ganhou a Copa Libertadores em 1999?",
       respostas: [
-        "Uma variável que só pode ser acessada dentro de uma função específica.",
-        "Uma variável que pode ser acessada de qualquer lugar em um programa.",
-        "Uma variável que armazena múltiplos valores.",
+        "River Plate",
+        "Boca Juniors",
+        "São Paulo"
       ],
       correta: 1
-    },
+    }
   ];
+  const perguntas = [
+    {
+      pergunta: "Qual time venceu a Copa Libertadores em 1990?",
+      respostas: [
+        "Boca Juniors",
+        "São Paulo",
+        "Nacional"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem ganhou a Liga dos Campeões da UEFA em 1991?",
+      respostas: [
+        "Barcelona",
+        "Bayern de Munique",
+        "Estrela Vermelha"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual equipe conquistou a Copa Intercontinental em 1992?",
+      respostas: [
+        "São Paulo",
+        "Manchester United",
+        "Barcelona"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quem foi o campeão da Copa Libertadores em 1993?",
+      respostas: [
+        "Cruzeiro",
+        "Vasco da Gama",
+        "São Paulo"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual time venceu a Liga dos Campeões da UEFA em 1994?",
+      respostas: [
+        "Juventus",
+        "Ajax",
+        "Milan"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem ganhou a Copa Intercontinental em 1995?",
+      respostas: [
+        "Independiente",
+        "Boca Juniors",
+        "Real Madrid"
+      ],
+      correta: 2
+    },
+    {
+      pergunta: "Qual equipe conquistou a Copa Libertadores em 1996?",
+      respostas: [
+        "River Plate",
+        "Boca Juniors",
+        "Cruzeiro"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Quem foi o vencedor da Liga dos Campeões da UEFA em 1997?",
+      respostas: [
+        "Manchester United",
+        "Real Madrid",
+        "Juventus"
+      ],
+      correta: 1
+    },
+    {
+      pergunta: "Qual clube ganhou a Copa Intercontinental em 1998?",
+      respostas: [
+        "Real Madrid",
+        "Milan",
+        "São Paulo"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Quem ganhou a Copa Libertadores em 1999?",
+      respostas: [
+        "River Plate",
+        "Boca Juniors",
+        "São Paulo"
+      ],
+      correta: 1
+    }
+  ];
+    
   
   const quiz = document.querySelector('#quiz')
   const template = document.querySelector('template')
