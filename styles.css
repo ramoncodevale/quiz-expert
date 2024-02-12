@@ -15,7 +15,7 @@
 }
 
 body {
-  background-color:  #00FF00;
+  background-color:  #2deb2d;
 }
 
 main {
@@ -27,7 +27,7 @@ main {
 header {
   margin-top: 64px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #FFFF00;
+  border-bottom: 1px solid #f5f539;
 }
 
 header h1 {
@@ -56,7 +56,7 @@ header h1 {
    align-items: center;
    gap: 12px;
 
-   background-color: #FFFF00;
+   background-color: #facc15;
 
 }
 
@@ -64,7 +64,7 @@ header h1 {
   counter-increment: quiz-item;
   content: counter(quiz-item);
 
-  background-color: #00FF00;
+  background-color: #2deb2d;
   width: 28px;
   height: 28px;
   font-size: 12px;
@@ -97,7 +97,7 @@ header h1 {
 
 input {
   all: unset;
-  border: 1px solid #FFFF00;
+  border: 1px solid #f5f539;
   width: 16px;
   height: 16px;
 
@@ -110,7 +110,7 @@ input {
 }
 
 input:checked {
-  border: 1px solid #FFFF00;
+  border: 1px solid #facc15;
 }
 
 input:checked:before {
