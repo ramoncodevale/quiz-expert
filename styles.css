@@ -73,7 +73,7 @@ header h1 {
   counter-increment: quiz-item;
   content: counter(quiz-item);
 
-  background-color: var(--input-before);
+  background-color: var(--border);
   color: var(--border);
   width: 28px;
   height: 28px;
