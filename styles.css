@@ -75,7 +75,7 @@ header h1 {
   counter-increment: quiz-item;
   content: counter(quiz-item);
 
-  background-color: var(--border);
+  background-color: var(--input-checked);
   color: #FFFFFF;
   width: 28px;
   height: 28px;
