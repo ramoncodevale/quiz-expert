@@ -107,10 +107,10 @@ header h1 {
 
 input {
   all: unset;
-  border: 1px solid var(--input-checked);
+  border: 1px solid var(--border);
   width: 16px;
   height: 16px;
-
+  background-color: var(--input-checked);
   border-radius: 50%;
 
   display: flex;
